@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel Slideshow</title>
+
+    <style>
+      #carouselExampleIndicators,
+      #carousel-inner {
+        height: 500px;
+        width: 950px;
+        margin: auto;
+      }
+      img {
+        height: 495px;
+        width: 945px;
+      }
+
+      .icon {
+        height: 40px;
+        width: 40px;
+      }
+      /* Vertical Navigation */
+      .vertical-nav {
+        text-align: center;
+        padding: 50px 0;
+        padding-right: 100px;
+      }
+      .navbar-nav1 {
+        padding-left: 100px;
+      }
+      /* Social Media Icons */
+      .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .social-icons a {
+        margin: 0 10px;
+        color: #000000;
+        font-size: 24px;
+        transition: transform 0.3s ease-in-out;
+      }
+      .social-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .social-icon:hover {
+        transform: scale(1.2);
+      }
+      .custom-hr {
+        border: 4px solid #f99890;
+        border-radius: 1.5px;
+      }
+
+      .footer {
+        background: #f99890;
+        color: #000000;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+
+      .footer p {
+        margin: 0;
+      }
+
+      .footer a {
+        color: #000000;
+        text-decoration: none;
+      }
+
+      .footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="Source/Img/xyz1.jpg" alt="First slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Source/Img/Two.jpeg.jpg" alt="Second slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Source/Img/one.jpg" alt="Third slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Source/Img/xyz2.png" alt="Fourth slide" />
+        </div>
+      </div>
+      <!-- <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+     </a>
+     <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+       </a> -->
+    </div>
+    <br />
+    <br />
+    <div
+      style="
+        margin: auto;
+        text-align: center;
+        font-family: papyrus;
+        height: 30px;
+        width: 300px;
+      "
+    >
+      <h4>About Us</h4>
+    </div>
+    <hr class="custom-hr" />
+    <div>
+      Certainly! Here's a sample "About Us" section for a wedding planning
+      organization: --- At <strong>BlissfulBonds</strong>, we understand that
+      your wedding day is one of the most significant milestones in your life.
+      With a passion for creating unforgettable moments and a dedication to
+      detail, we are here to transform your vision into reality. Established
+      with a commitment to excellence, [Organization Name] brings together a
+      team of experienced and creative professionals who thrive on turning
+      dreams into beautiful realities. Our mission is to alleviate the stress of
+      wedding planning, allowing you to cherish every moment of your special
+      day.<br />
+      <br />
+      <br />
+
+      <h3 style="font-family: monospace">Our Approach:</h3>
+      At the heart of our approach lies a deep understanding of your unique
+      preferences, style, and cultural traditions. We believe that every wedding
+      should reflect the individuality and love story of the couple. From
+      intimate gatherings to grand celebrations, we tailor our services to suit
+      your specific needs, ensuring a seamless and unforgettable experience for
+      you and your guests.
+      <br />
+      <br />
+      <h3 style="font-family: monospace">We offer:</h3>
+      <strong>-Full-Service Planning:</strong><br />
+      Let us handle every aspect of your wedding, from venue selection and
+      vendor coordination to design and execution. Sit back, relax, and watch
+      your dream wedding come to life. <br />
+      <strong>-Partial Planning:</strong><br />
+      Already have some aspects of your wedding planned? We're here to fill in
+      the gaps and provide expert guidance along the way. <br />
+      <strong>-Day-of Coordination:</strong><br />
+      On the big day, our team will be there to ensure that everything runs
+      smoothly, allowing you to focus on savoring each moment with your loved
+      ones. <br />
+      <strong>-Destination Weddings:</strong> <br />
+      Whether you dream of saying "I do" on a pristine beach or amidst the
+      stunning backdrop of a historic castle, we'll handle all the details to
+      make your destination wedding a magical experience. <br />
+      <br />
+      <h3 style="font-family: monospace">Why Choose Us:</h3>
+      <strong>-Experience:</strong><br />
+      With years of experience in the industry, we have the expertise and
+      insights to bring your vision to life, no matter how intricate or
+      elaborate. <br />
+      <strong>-Attention to Detail:</strong> <br />
+      From the initial consultation to the final send-off, we pay meticulous
+      attention to every detail, ensuring a flawless and stress-free planning
+      process. <br />
+      <strong>-Personalized Service:</strong> <br />
+      Your wedding is as unique as your love story. We take the time to
+      understand your vision and preferences, tailoring our services to create a
+      truly personalized and unforgettable experience. <br />
+      <strong>-Vendor Relationships:</strong> <br />
+      We have cultivated strong relationships with top vendors in the industry,
+      allowing us to secure the best services and deals for your wedding day.
+      <br />
+      <strong>-Peace of Mind:</strong> <br />
+      With [Organization Name] by your side, you can relax and enjoy every
+      moment of your engagement journey, knowing that your wedding is in capable
+      and caring hands. <br />
+      <br />
+      <h3 style="font-family: monospace">Let's Get Started:</h3>
+      Ready to embark on the journey to your dream wedding? Contact us today to
+      schedule a consultation. We can't wait to hear your love story and start
+      planning the celebration of a lifetime! --- Feel free to customize this
+      text to better fit the specific style and offerings of your wedding
+      planning organization.
+      <div style="height: 200px">
+        <br />
+        <br /><br />
+        <div
+          style="
+            text-align: center;
+            font-family: papyrus;
+            height: 50px;
+            width: 350px;
+            margin: auto;
+          "
+        >
+          <h3>Thank You♥</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Section -->
+    <section
+      id="contact"
+      class="contact-section"
+      style="background-color: rgb(244, 234, 234)"
+    >
+      <div class="row" style="margin: 10px">
+        <div class="col-lg-4" style="margin: left 10px">
+          <h1>BlissfulBonds</h1>
+          <div class="Downinfo">
+            <p>
+              BlissfulBonds and Entertainments Pvt Ltd is passionate about
+              crafting charmingly timeless and elegant luxurious weddings and
+              events at stunning venues throughout the world. As the leading
+              wedding designers and event organisers in Odisha, we are renowned
+              to create authentic experiences worth cherishing for a lifetime.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+          <h2>Contact Us</h2>
+          <p style="padding-top: 50px">
+            Ready to plan your perfect wedding? Contact us today to get started!
+            <br /><br />
+            Address : 123,XYZ Street,ABC City
+            <br />
+            Phone : 1234567890
+            <br /><br />
+            Email : satchidananda26212@gmail.com
+          </p>
+          <!-- Social Media Icons -->
+          <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">
+              <img
+                src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png"
+                alt="Facebook"
+                class="social-icon"
+              />
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+                alt="Instagram"
+                class="social-icon"
+              />
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+              <img
+                src="https://toppng.com/uploads/preview/twitter-x-new-logo-icon-png-11692480121koxvq54was.webp"
+                alt="Twitter"
+                class="social-icon"
+              />
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+              <img
+                src="https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png"
+                alt="YouTube"
+                class="social-icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+
+    <div>
+      <footer class="footer">
+        <div class="container">
+          <p>
+            Copyright&copy; BlissfulBonds PVT.LTD 2020,All Right reserved. |
+            <a href="https://en.wikipedia.org/wiki/Privacy_policy"
+              >Privacy Policy</a
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
